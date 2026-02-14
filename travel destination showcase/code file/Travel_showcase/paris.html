@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Places in Paris</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #eef2f3;
+      margin: 0;
+    }
+
+    header {
+      background-color: #ff4d6d;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .place {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .place img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .place h3 {
+      color: #ff4d6d;
+      padding: 10px;
+    }
+
+    .place p {
+      padding: 0 10px 15px;
+      color: #555;
+    }
+
+    a.back {
+      display: inline-block;
+      margin: 20px;
+      padding: 10px 20px;
+      background-color: #ff4d6d;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    a.back:hover {
+      background-color: #c9184a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Beautiful Places in Paris 🇫🇷</h1>
+    <p>Experience the magic and romance of the City of Lights</p>
+  </header>
+
+  <a class="back" href="index.html">⬅ Back to Home</a>
+
+  <section class="gallery">
+    <div class="place">
+      <img src="Eiffeltower.jpg" alt="Eiffel Tower">
+      <h3>Eiffel Tower</h3>
+      <p>The most iconic landmark in Paris, offering stunning city views.</p>
+    </div>
+
+    <div class="place">
+      <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="Louvre Museum">
+      <h3>Louvre Museum</h3>
+      <p>Home of the Mona Lisa and thousands of world-famous artworks.</p>
+    </div>
+
+    <div class="place">
+      <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" alt="Notre-Dame">
+      <h3>Notre-Dame Cathedral</h3>
+      <p>A masterpiece of Gothic architecture located on Île de la Cité.</p>
+    </div>
+
+    <div class="place">
+      <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312" alt="Montmartre">
+      <h3>Montmartre</h3>
+      <p>Charming streets, artists, and the stunning Sacré-Cœur Basilica.</p>
+    </div>
+  </section>
+
+</body>
+</html>

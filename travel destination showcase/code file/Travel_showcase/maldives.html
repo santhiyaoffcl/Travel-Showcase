@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Places in Maldives</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #eef2f3;
+      margin: 0;
+    }
+
+    header {
+      background-color: #00b4d8;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .place {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .place img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .place h3 {
+      color: #00b4d8;
+      padding: 10px;
+    }
+
+    .place p {
+      padding: 0 10px 15px;
+      color: #555;
+    }
+
+    a.back {
+      display: inline-block;
+      margin: 20px;
+      padding: 10px 20px;
+      background-color: #00b4d8;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    a.back:hover {
+      background-color: #0077b6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Beautiful Places in Maldives 🇲🇻</h1>
+    <p>Experience paradise like never before</p>
+  </header>
+
+  <a class="back" href="index.html">⬅ Back to Home</a>
+
+  <section class="gallery">
+    <div class="place">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
+      <h3>Vaadhoo Island</h3>
+      <p>Famous for its glowing “Sea of Stars” at night.</p>
+    </div>
+
+    <div class="place">
+      <img src="maldhivesresorts.jpg" alt="Resort">
+      <h3>Baros Maldives</h3>
+      <p>Luxury resort surrounded by turquoise waters and coral reefs.</p>
+    </div>
+
+    <div class="place">
+      <img src="maldivesisland.jpg" alt="Diving">
+      <h3>Biyadhoo Island</h3>
+      <p>Perfect spot for snorkeling and scuba diving lovers.</p>
+    </div>
+  </section>
+
+</body>
+</html>
